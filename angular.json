@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Movie-night": {
+    "Movie-date": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/movie-night",
+            "outputPath": "dist/movie-date",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Movie-night:build:production"
+              "browserTarget": "Movie-date:build:production"
             },
             "development": {
-              "browserTarget": "Movie-night:build:development"
+              "browserTarget": "Movie-date:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Movie-night:build"
+            "browserTarget": "Movie-date:build"
           }
         },
         "test": {
