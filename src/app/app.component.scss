@@ -3,10 +3,7 @@ nav {
     &.dashboard-navbar {
         background-color: var(--background-color);
     }
-    &.home-navbar{
-        position: absolute;
-        top: 0;
-        left: 0;
+    &.home-navbar {
         background-color: var(--background-transparent-color);
     }
     ul {
@@ -14,10 +11,17 @@ nav {
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
-        padding: 50px 250px;
+        padding: 30px 250px;
         img {
             width: 200px;
             height: auto;
         }
     }
+}
+
+footer {
+    background-color: var(--background-transparent-color);
+    font-size: 16rem;
+    padding: 15px;
+    text-align: center;
 }
